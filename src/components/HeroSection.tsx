@@ -82,7 +82,7 @@ export default function HeroSection() {
 
           {/* Description */}
           <motion.p variants={itemVariants} className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto text-gray-300 leading-relaxed">
-            Second-year B.Tech AI/ML student passionate about building scalable, real-world software solutions. 
+            3rd year B.Tech AI/ML student passionate about building scalable, real-world software solutions. 
             Finalist in 5+ national-level hackathons with expertise in AI/ML, full-stack development, and open-source contributions.
           </motion.p>
 
