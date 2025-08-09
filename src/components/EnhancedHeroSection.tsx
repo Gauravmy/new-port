@@ -159,7 +159,7 @@ export default function EnhancedHeroSection() {
             variants={itemVariants}
             className="text-lg md:text-xl lg:text-2xl mb-8 md:mb-12 max-w-4xl mx-auto text-gray-300 leading-relaxed"
           >
-            Second-year B.Tech AI/ML student passionate about building scalable, real-world software solutions. 
+            3rd year B.Tech AI/ML student passionate about building scalable, real-world software solutions. 
             Finalist in 5+ national-level hackathons with expertise in AI/ML, full-stack development, and open-source contributions.
           </motion.p>
           
