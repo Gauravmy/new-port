@@ -79,7 +79,7 @@ export default function AboutSection() {
             className="space-y-6"
           >
             <motion.p variants={itemVariants} className="text-lg text-gray-300 leading-relaxed">
-              I'm a second-year B.Tech student majoring in Artificial Intelligence and Machine Learning at Sanskriti University. 
+              I'm a 3rd year B.Tech student majoring in Artificial Intelligence and Machine Learning at Sanskriti University. 
               My journey is driven by a passion for building scalable, real-world software solutions that make a meaningful impact.
             </motion.p>
 
