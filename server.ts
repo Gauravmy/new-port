@@ -3,22 +3,18 @@ import { setupSocket } from '@/lib/socket';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import next from 'next';
-
 const dev = process.env.NODE_ENV !== 'production';
 const currentPort = 3000;
 const hostname = '0.0.0.0';
-
 // Custom server with Socket.IO integration
 async function createCustomServer() {
   try {
-    // Create Next.js app
     const nextApp = next({ 
       dev,
       dir: process.cwd(),
       // In production, use the current directory where .next is located
       conf: dev ? undefined : { distDir: './.next' }
-    });
-
+    })
     await nextApp.prepare();
     const handle = nextApp.getRequestHandler();
 
